@@ -141,22 +141,3 @@ pip install tensorflow numpy matplotlib
 ```
 
 ---
-
-## Further Improvements
-
-Here are some ways this model can be improved:
-
-1. **Hyperparameter Tuning**:
-   - Vary the number of filters in each Conv2D layer, the number of dense units, batch size, or epochs.
-   - Experiment with other optimizers like RMSprop or SGD with momentum.
-
-2. **Data Augmentation**:
-   - Apply techniques like horizontal flipping, rotation, or zooming to artificially expand the dataset and make the model more robust to variations.
-
-3. **Transfer Learning**:
-   - Instead of building the CNN from scratch, you could use pretrained models like ResNet or VGG and fine-tune them for CIFAR-10.
-
-4. **Learning Rate Scheduling**:
-   - Implement learning rate schedules to adjust the learning rate dynamically during training.
-
----
